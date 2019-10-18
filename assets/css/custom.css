@@ -1,0 +1,122 @@
+.theme-bg-dark{
+    background-color: #000;
+}
+button:focus{
+    outline: 5px auto #8fe2a6;
+}
+.theme-header{
+    margin-bottom: 30px;
+}
+.theme-navbar{
+    background: transparent !important;
+}
+.theme-navbar .navbar-brand img{
+    width: 150px;
+}
+.theme-navbar .navbar-nav .nav-link{
+    color: #f8f8ff;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 8px 16px;
+
+}
+.theme-navbar .navbar-nav .nav-link:hover{
+    color: #8fe2a6;
+}
+.moniter{
+    max-width: 330px;
+}
+.illustration{
+    max-width: 300px;
+}
+.theme-navbar .navbar-nav .nav-item.active .nav-link{
+    color:#8fe2a6;
+}
+.theme-navbar .navbar-nav .nav-item:last-child .nav-link{
+    color: #29436b;
+    background: #8fe2a6;
+    font-weight: 600;
+}
+.theme-navbar .navbar-nav .nav-item:last-child .nav-link:hover{
+    background-color: #f8f8ff;
+}
+.theme-heading-primary{
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.1;
+    color: #8fe2a6;
+}
+.theme-heading-secondary{
+    color:#f8f8ff;
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+}
+.theme-text{
+    margin-top: 20px;
+    color: #f8f8ff;
+}
+.our-team{
+    background: url('../img/buildings.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.theme-overlay{
+    background-color: rgba(0,0,0,0.5);
+}
+.theme-icon{
+    width: 70px;
+}
+.team{
+    padding-top: 110px;
+}
+.rounded-circle{
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.rounded-circle img{
+    width: 100%;
+}
+.user-profile{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.user-name{
+    color: #8fe2a6;
+    margin: 15px 0 10px;
+    
+}
+.user-profile p{
+    color: #f8f8ff;
+    line-height: 1.2;
+    
+}
+.theme-heading-primary.set-width{
+    width: 50% !important;
+}
+@media (max-width: 992px){
+    .theme-heading-primary.set-width{
+        width: 100% !important;
+    }
+}
+.right-dots{
+    background: url('../img/Dots.png');
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.left-dots{
+    background: url('../img/Dots-2.png');
+    background-position: left bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
